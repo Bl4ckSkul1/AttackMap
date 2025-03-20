@@ -21,6 +21,14 @@ En MacOS, usa:
 brew install assetfinder amass subfinder jq curl
 go install github.com/tomnomnom/httprobe@latest
 
+resultados/
+ ├── ejemplo.com/
+ │   ├── ejemplo.com_2025-03-20.txt  # Subdominios detectados
+ │   ├── https_ejemplo.com_2025-03-20.txt  # Solo subdominios con HTTP/HTTPS
+ │   ├── log_ejemplo.com_2025-03-20.txt  # Log completo del escaneo
+ │   ├── nuevos_subdominios_2025-03-20.txt  # Subdominios nuevos detectados
+ │   ├── subdominios_inactivos_2025-03-20.txt  # Subdominios eliminados o inactivos
+
 🎯 Casos de Uso
 
 🔎 Pentesting: Automatiza y Obtén información detallada de activos de un objetivo.
